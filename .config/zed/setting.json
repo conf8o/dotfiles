@@ -24,6 +24,8 @@
   "buffer_line_height": "comfortable",
   "agent_ui_font_size": 15.0,
   "agent_buffer_font_size": 15.0,
+  "ui_font_family": "Moralerspace Neon HWNF",
+  "buffer_font_family": "Moralerspace Neon HWNF",
   "agent_servers": {
     "github-copilot-cli": {
       "type": "registry"
@@ -53,6 +55,9 @@
         },
         "delete_path": {
           "default": "confirm"
+        },
+        "web_search": {
+          "default": "allow"
         },
         "save_file": {
           "default": "allow"
